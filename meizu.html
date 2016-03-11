@@ -7,34 +7,38 @@
         body {
             width: auto;
             height: auto;
-            background: #2CBAFF;
+            background: #f2f2f2;
+            background-image: url(img/meizu/banner.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 520px;
             padding: 0px 0px 0px 0px;
             margin: 0px 0px 0px 0px;
-            /*border: 1px #ff0000 solid;*/
         }
 
         .container {
-            width: 1000px;
-            height: 2000px;
-            margin: 20px auto;
-            /*background: #2CBAEE;*/
-            border: #FFFFFF 1px solid;
+            width: 1200px;
+            height: 500px;
+            margin: 20px auto 0px auto;
+            /*border: #FFFFFF 1px solid;*/
         }
 
-        .logo {
+        .logoContainer {
             float: left;
+        }
+
+        .meizuLogo {
             width: auto;
-            height: auto;
-            /*margin: 20px 0px 0px 20px;*/
+            height: 20px;
         }
 
         .menu {
             float: left;
-			width: auto;
-			height: auto;
-            background: #f2f2f2;
-            margin: 10px 0px 0px 0px;
+            width: auto;
+            height: auto;
+            margin: 2px 0px 0px 100px;
             padding: 0px 0px 0px 0px;
+            /*border: #0088cc 1px solid;*/
+
         }
 
         ul {
@@ -46,21 +50,56 @@
             float: left;
             color: #FFFFFF;
             font-size: 16px;
-            margin: 0px 20px 0px 0px;
+            margin: 0px 30px 0px 0px;
             padding: 0px 0px 0px 0px;
             list-style-type: none
         }
 
         .login_icon {
             float: left;
-            background: #ff0000;
+            margin: 0px 0px 0px 50px;
+            padding: 0;
+            /*border: #0088cc 1px solid;*/
+        }
+
+        .down {
+            float: left;
+            margin: 10px 10px 0px 10px;
+            /*width:*/
+        }
+
+        .left {
+            float: left;
+            width: 33%;
+            margin: 0px;
+            padding: 0px;
+            border: #0088cc 0px solid;
+
+        }
+
+        .center {
+            float: left;
+            width: 33%;
+            margin: 0px 0.5% 0px 0.5%;
+            padding: 0px 0px 0px 0px;
+            border: #0088cc 0px solid;
+        }
+
+        .right {
+            float: right;
+            width: 33%;
+            margin: 0px;
+            padding: 0px 0px 0px 0px;
+            border: #0088cc 0px solid;
         }
     </style>
 </head>
 
 <body>
 <div class="container">
-    <div class="logo"><img src="img/meizu/logo.png"/></div>
+    <div class="logoContainer">
+        <img class="meizuLogo" src="img/meizu/logo.png"/>
+    </div>
     <ul class="menu">
         <li>魅族商城</li>
         <li>魅族手机</li>
@@ -74,8 +113,14 @@
         <li>社区</li>
     </ul>
     <div class="login_icon">
-        <img src="img/meizu/login.png"></div>
+        <img src="img/meizu/login.png"/>
+    </div>
 </div>
+
+<div class="down">
+    <img src="img/meizu/left.jpg" class="left">
+    <img src="img/meizu/center.jpg" class="center">
+    <img src="img/meizu/right.jpg" class="right">
 </div>
 </body>
 </html>
