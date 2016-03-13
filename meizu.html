@@ -10,16 +10,15 @@
             background: #f2f2f2;
             background-image: url(img/meizu/banner.jpg);
             background-repeat: no-repeat;
-            background-size: 100% 520px;
+            background-size: 100% 450px;
             padding: 0px 0px 0px 0px;
-            margin: 0px 0px 0px 0px;
+            margin: 0px auto;
         }
 
         .container {
             width: 1200px;
-            height: 500px;
+            height: 430px;
             margin: 20px auto 0px auto;
-            /*border: #FFFFFF 1px solid;*/
         }
 
         .logoContainer {
@@ -35,15 +34,12 @@
             float: left;
             width: auto;
             height: auto;
-            margin: 2px 0px 0px 100px;
+            margin: 0px 0px 0px 150px;
             padding: 0px 0px 0px 0px;
-            /*border: #0088cc 1px solid;*/
-
         }
 
         ul {
             float: left;
-            /*margin-left: 200px;*/
         }
 
         ul li {
@@ -56,16 +52,15 @@
         }
 
         .login_icon {
-            float: left;
-            margin: 0px 0px 0px 50px;
+            float: right;
+            margin: 0px 0px 0px 0px;
             padding: 0;
-            /*border: #0088cc 1px solid;*/
         }
 
-        .down {
+        .banners {
             float: left;
-            margin: 10px 10px 0px 10px;
-            /*width:*/
+            margin: 10px 10px 10px 10px;
+            padding: 0;
         }
 
         .left {
@@ -73,8 +68,6 @@
             width: 33%;
             margin: 0px;
             padding: 0px;
-            border: #0088cc 0px solid;
-
         }
 
         .center {
@@ -82,7 +75,6 @@
             width: 33%;
             margin: 0px 0.5% 0px 0.5%;
             padding: 0px 0px 0px 0px;
-            border: #0088cc 0px solid;
         }
 
         .right {
@@ -90,7 +82,75 @@
             width: 33%;
             margin: 0px;
             padding: 0px 0px 0px 0px;
-            border: #0088cc 0px solid;
+        }
+
+        .bottom {
+            clear: both;
+
+            width: auto;
+            height: 150px;
+            background: #FFFFFF;
+            margin: 10px auto 10px auto;
+            padding: 0;
+        }
+
+        .links {
+            float: left;
+            width: 600px;
+            height: auto;
+            margin: 15px auto 0px 100px;
+            padding: 0;
+            font-family: "Adobe Heiti Std";
+            font-weight: 100;
+            font-style: normal;
+            color: #666666;
+        }
+
+        .link1 {
+            float: left;
+            margin: 0px 50px 0px 0px;
+            padding: 0;
+        }
+
+        .link2 {
+            float: left;
+            /*width: 20%;*/
+            margin: 0px 50px 0px 50px;
+            padding: 0;
+        }
+
+        .link3 {
+            float: left;
+            margin: 0px 50px 0px 50px;
+            padding: 0;
+        }
+
+        .link4 {
+            float: left;
+            margin: 0px auto 0px 50px;
+            padding: 0;
+        }
+
+        dl dt {
+            margin: 0;
+            padding: 0;
+        }
+
+        dl dd {
+            font-size: 12px;
+            margin: 0px 0px 0px 9px;
+            padding: 0;
+        }
+
+        .tel {
+            width: auto;
+            float: right;
+            margin: 30px 100px 0px 0px;
+        }
+
+        .telNumber {
+            font-size: 24px;
+            font-weight: 600;
         }
     </style>
 </head>
@@ -117,10 +177,49 @@
     </div>
 </div>
 
-<div class="down">
+<div class="banners">
     <img src="img/meizu/left.jpg" class="left">
     <img src="img/meizu/center.jpg" class="center">
     <img src="img/meizu/right.jpg" class="right">
+</div>
+
+    <div class="bottom">
+        <div class="links">
+            <dl class="link1">
+                <dt>魅族商城</dt>
+                <dd>PRO 5</dd>
+                <dd>MX5</dd>
+                <dd>魅蓝2</dd>
+                <dd>贴膜</dd>
+            </dl>
+            <dl class="link2">
+                <dt>服务支持</dt>
+                <dd>寄送快修</dd>
+                <dd>上门快修</dd>
+                <dd>预约维修</dd>
+                <dd>VIP注册</dd>
+            </dl>
+            <dl class="link3">
+                <dt>Flyme OS</dt>
+                <dd>云服务</dd>
+                <dd>固件下载</dd>
+                <dd>软件商店</dd>
+                <dd>查找手机</dd>
+            </dl>
+            <dl class="link4">
+                <dt>关于我们</dt>
+                <dd>关于魅族</dd>
+                <dd>加入我们</dd>
+                <dd>联系我们</dd>
+                <dd>法律声明</dd>
+            </dl>
+        </div>
+        <div class="tel">
+            <p>24小时全国服务热线</p>
+            <p class="telNumber">400-788-3333</p>
+
+        </div>
+    </div>
 </div>
 </body>
 </html>
